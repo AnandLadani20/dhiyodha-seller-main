@@ -1,0 +1,53 @@
+.custom-calendar.rmdp-wrapper,
+.rmdp-container .custom-calendar.ep-arrow::after {
+  background-color: transparent;
+  color: #ffffff;
+  box-shadow: none;
+  z-index: 1000000000000;
+}
+
+.custom-calendar.rmdp-top-class {
+  z-index: 1500 !important;
+}
+
+.rmdp-ep-arrow[direction="top"] {
+  border-bottom: none;
+}
+
+.rmdp-week-day {
+  color: rgba(159, 18, 57, 0.7) !important;
+}
+
+.rmdp-arrow-container:hover {
+  background-color: rgba(159, 18, 57, 0.7) !important;
+  box-shadow: none !important;
+}
+.rmdp-arrow {
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 6px !important;
+  height: 6px !important;
+}
+
+.rmdp-header-values {
+  color: #d0d2d6 !important;
+}
+
+.rmdp-day.rmdp-selected span:not(.highlight) {
+  box-shadow: none;
+  color: #fff;
+}
+
+.rmdp-range {
+  background-color: rgba(159, 18, 57, 0.7) !important;
+  box-shadow: none !important;
+}
+
+.rmdp-time-picker div input {
+  background-color: transparent;
+  color: #d0d2d6 !important;
+}
+
+.rmdp-input::placeholder {
+  color: rgba(255, 255, 255, 0.1);
+}
